@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tickets &amp; Payments — Pulse Society Goa</title>
+<meta name="description" content="Reserve tickets for Pulse Society Goa parties and pay securely by UPI, card or netbanking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/pulse-logo.png" alt="Pulse Society Goa" class="brand-logo">
+      <span class="brand-sub">GOA</span>
+    </a>
+
+    <input type="checkbox" id="navToggle" class="nav-check">
+
+    <ul class="nav-links">
+      <li><a href="index.html#work">Parties</a></li>
+      <li><a href="index.html#work">Corporate</a></li>
+      <li><a href="index.html#work">Weddings</a></li>
+      <li><a href="index.html#work">MICE</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="tickets.html">Tickets</a></li>
+      <li><a href="index.html#enquire">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="index.html#enquire" class="btn btn-ghost btn-small">Start planning</a>
+      <label for="navToggle" class="nav-toggle-btn" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </label>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= TICKET HERO ================= -->
+  <section class="ticket-hero">
+    <div class="wrap">
+      <p class="eyebrow fade-in">TICKETS &amp; PAYMENTS</p>
+      <h1 class="fade-in d1">Reserve your spot.</h1>
+      <p class="fade-in d2">Pick your event and tier below. We confirm availability and send a secure payment link by UPI, card or netbanking — no queue, no cash at the door. We never ask for or store your card details on this site.</p>
+      <div class="pay-methods-strip fade-in d3">
+        <span>UPI</span><span>Credit / Debit card</span><span>Netbanking</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="pulse-line" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path class="pulse-path" stroke="#c99a4c" d="M0 30 H120 L145 8 L170 52 L195 30 H340 L365 8 L390 52 L415 30 H560 L585 8 L610 52 L635 30 H1200"/>
+      <path class="pulse-path" stroke="#c99a4c" d="M1200 30 H1320 L1345 8 L1370 52 L1395 30 H1540 L1565 8 L1590 52 L1615 30 H1760 L1785 8 L1810 52 L1835 30 H2400" transform="translate(-1200,0)"/>
+    </svg>
+  </div>
+
+  <!-- ================= TICKETED EVENTS PRICING ================= -->
+  <section id="events-pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">ON SALE NOW</p>
+        <h2>Ticketed events.</h2>
+        <p>Prices are per person unless marked otherwise. Tiers include entry plus the perks listed.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card" id="event-sunset-pulse">
+          <div class="pricing-card-top">
+            <h3>Sunset Pulse — NYE Beach Sessions</h3>
+            <span class="cat-pill cat-parties">Parties</span>
+          </div>
+          <p class="loc">Candolim, Goa · 31 Dec 2026</p>
+          <table class="tier-table">
+            <tr><td class="tname">General entry<span class="tperk">Beachfront access, resident DJ line-up</span></td><td class="tprice">₹1,999</td></tr>
+            <tr><td class="tname">Couple entry<span class="tperk">2 entries, priority queue</span></td><td class="tprice">₹3,499</td></tr>
+            <tr><td class="tname">VIP deck<span class="tperk">Fast entry, welcome drink, deck seating</span></td><td class="tprice">₹4,999</td></tr>
+          </table>
+        </div>
+
+        <div class="pricing-card" id="event-full-moon">
+          <div class="pricing-card-top">
+            <h3>Full Moon Warehouse Set</h3>
+            <span class="cat-pill cat-parties">Parties</span>
+          </div>
+          <p class="loc">Anjuna, Goa · 14 Nov 2026</p>
+          <table class="tier-table">
+            <tr><td class="tname">General entry<span class="tperk">Standard floor access</span></td><td class="tprice">₹1,299</td></tr>
+            <tr><td class="tname">Couple entry<span class="tperk">2 entries, priority queue</span></td><td class="tprice">₹2,299</td></tr>
+            <tr><td class="tname">VIP deck<span class="tperk">Fast entry, welcome drink</span></td><td class="tprice">₹3,299</td></tr>
+          </table>
+        </div>
+
+        <div class="pricing-card" id="event-rooftop-sundowner">
+          <div class="pricing-card-top">
+            <h3>Rooftop Sundowner: Season Opener</h3>
+            <span class="cat-pill cat-parties">Parties</span>
+          </div>
+          <p class="loc">Bandra, Mumbai · 08 Nov 2026</p>
+          <table class="tier-table">
+            <tr><td class="tname">General entry<span class="tperk">Standard rooftop access</span></td><td class="tprice">₹1,499</td></tr>
+            <tr><td class="tname">Couple entry<span class="tperk">2 entries, priority queue</span></td><td class="tprice">₹2,699</td></tr>
+            <tr><td class="tname">VIP deck<span class="tperk">Fast entry, welcome drink</span></td><td class="tprice">₹3,799</td></tr>
+          </table>
+        </div>
+
+        <div class="invite-card">
+          <h3>Corporate, weddings &amp; MICE</h3>
+          <p>These run by invite and custom quote rather than open ticketing — founders night, sangeet showcases and the MICE summit are booked directly with our team.</p>
+          <a href="index.html#enquire" class="btn btn-ghost btn-small">Request an invite</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RESERVATION + PAYMENT ================= -->
+  <section class="cap-section" id="reserve">
+    <div class="wrap enquire-grid">
+      <div>
+        <p class="eyebrow">HOW IT WORKS</p>
+        <h2 style="font-size:clamp(1.8rem,3.6vw,2.5rem);margin-bottom:20px;">From reservation to e-ticket.</h2>
+        <ul class="steps-mini">
+          <li><span class="n">1</span>Pick your event, tier and quantity — the total updates instantly.</li>
+          <li><span class="n">2</span>Hit "Pay now" and complete checkout in the Razorpay window, by UPI, card or netbanking.</li>
+          <li><span class="n">3</span>You'll see a confirmation right here, and your e-ticket follows by email — show it at entry, nothing to print.</li>
+        </ul>
+        <p style="color:var(--sand-dim);font-size:0.92rem;">Prefer to book by hand? Call or WhatsApp us at <strong>+91 98XXX XXXXX</strong> and we'll take your reservation directly.</p>
+      </div>
+
+      <div class="reserve-panel">
+        <h3 style="font-size:1.2rem;margin-bottom:4px;">Reserve &amp; pay</h3>
+        <p style="color:var(--slate);font-size:0.85rem;margin:0 0 6px;">Secure checkout powered by Razorpay.</p>
+        <span class="rzp-badge">🔒 Payments by Razorpay</span>
+
+        <form id="reserveForm" style="margin-top:22px;">
+          <div class="field">
+            <label for="rsvEvent">Event</label>
+            <select id="rsvEvent" name="Event">
+              <option value="sunset-pulse">Sunset Pulse — NYE Beach Sessions (Candolim, Goa · 31 Dec 2026)</option>
+              <option value="full-moon">Full Moon Warehouse Set (Anjuna, Goa · 14 Nov 2026)</option>
+              <option value="rooftop-sundowner">Rooftop Sundowner: Season Opener (Bandra, Mumbai · 08 Nov 2026)</option>
+            </select>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="rsvTier">Ticket tier</label>
+              <select id="rsvTier" name="Tier">
+                <option value="general">General entry</option>
+                <option value="couple">Couple entry</option>
+                <option value="vip">VIP deck</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="rsvQty">Quantity</label>
+              <select id="rsvQty" name="Quantity">
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+              </select>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="rsvName">Full name</label><input id="rsvName" name="Name" type="text" required></div>
+            <div class="field"><label for="rsvPhone">Phone</label><input id="rsvPhone" name="Phone" type="tel" required placeholder="10-digit mobile"></div>
+          </div>
+          <div class="field"><label for="rsvEmail">Email</label><input id="rsvEmail" name="Email" type="email" required></div>
+
+          <div class="field">
+            <label>Pay with</label>
+
+            <input type="radio" id="pay-upi" name="Payment method" value="upi" class="pay-input" checked>
+            <input type="radio" id="pay-card" name="Payment method" value="card" class="pay-input">
+            <input type="radio" id="pay-netbanking" name="Payment method" value="netbanking" class="pay-input">
+
+            <div class="pay-tabs">
+              <label for="pay-upi" class="pay-tab">UPI</label>
+              <label for="pay-card" class="pay-tab">Card</label>
+              <label for="pay-netbanking" class="pay-tab">Netbanking</label>
+            </div>
+            <p class="pay-note pay-note-upi">Opens Razorpay's UPI flow — pay with any app, confirmation is instant.</p>
+            <p class="pay-note pay-note-card">Opens Razorpay's card flow. We never see or store your card number.</p>
+            <p class="pay-note pay-note-netbanking">Opens Razorpay's netbanking flow for your bank.</p>
+          </div>
+
+          <div class="total-line">
+            <span>Total amount</span>
+            <span class="amount" id="totalAmount">₹1,999</span>
+          </div>
+
+          <button type="button" id="payNowBtn" class="btn btn-primary btn-block">Pay now with Razorpay</button>
+
+          <div class="rzp-note">
+            <span>ⓘ</span>
+            <span>This checkout uses Razorpay's standard client-side integration with a placeholder test key. Before going live, replace it with your own Key ID and — importantly — verify each payment on your server using Razorpay's Orders API and webhooks, so amounts can't be tampered with in the browser.</span>
+          </div>
+
+          <div class="confirm-box" id="confirmBox">
+            <b id="confirmRef">Payment received</b>
+            <span id="confirmDetail"></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+  // Per-event, per-tier pricing (INR). Keep in sync with the pricing cards above.
+  const EVENT_PRICES = {
+    "sunset-pulse": { name: "Sunset Pulse — NYE Beach Sessions", loc: "Candolim, Goa", general: 1999, couple: 3499, vip: 4999 },
+    "full-moon": { name: "Full Moon Warehouse Set", loc: "Anjuna, Goa", general: 1299, couple: 2299, vip: 3299 },
+    "rooftop-sundowner": { name: "Rooftop Sundowner: Season Opener", loc: "Bandra, Mumbai", general: 1499, couple: 2699, vip: 3799 }
+  };
+
+  // Razorpay's published documentation test key — replace with your own Key ID
+  // from Dashboard > Settings > API Keys before accepting real payments.
+  const RAZORPAY_KEY_ID = "rzp_test_1DP5mmOlF5G5ag";
+
+  const rsvEvent = document.getElementById('rsvEvent');
+  const rsvTier = document.getElementById('rsvTier');
+  const rsvQty = document.getElementById('rsvQty');
+  const totalAmountEl = document.getElementById('totalAmount');
+
+  function currentAmount() {
+    const ev = EVENT_PRICES[rsvEvent.value];
+    const perTicket = ev[rsvTier.value];
+    const qty = parseInt(rsvQty.value, 10);
+    return perTicket * qty;
+  }
+
+  function refreshTotal() {
+    const amount = currentAmount();
+    totalAmountEl.textContent = '₹' + amount.toLocaleString('en-IN');
+  }
+  [rsvEvent, rsvTier, rsvQty].forEach(el => el.addEventListener('change', refreshTotal));
+  refreshTotal();
+
+  // Preselect the reservation form event when arriving from a ticket link like tickets.html#event-full-moon
+  const hashMatch = window.location.hash.match(/^#event-(.+)/);
+  if (hashMatch && EVENT_PRICES[hashMatch[1]]) {
+    rsvEvent.value = hashMatch[1];
+    refreshTotal();
+  }
+
+  document.getElementById('payNowBtn').addEventListener('click', function () {
+    const name = document.getElementById('rsvName').value.trim();
+    const email = document.getElementById('rsvEmail').value.trim();
+    const phone = document.getElementById('rsvPhone').value.trim();
+    if (!name || !email || !phone) {
+      alert('Please fill in your name, email and phone before paying.');
+      return;
+    }
+
+    const ev = EVENT_PRICES[rsvEvent.value];
+    const tierLabel = rsvTier.options[rsvTier.selectedIndex].text;
+    const qty = rsvQty.value;
+    const amount = currentAmount();
+    const method = document.querySelector('input[name="Payment method"]:checked').value;
+
+    const options = {
+      key: RAZORPAY_KEY_ID,
+      amount: amount * 100, // Razorpay expects the amount in paise
+      currency: "INR",
+      name: "Pulse Society Goa",
+      description: ev.name + " — " + tierLabel + " × " + qty,
+      prefill: { name: name, email: email, contact: phone, method: method },
+      notes: { event: ev.name, tier: tierLabel, quantity: qty },
+      theme: { color: "#c99a4c" },
+      handler: function (response) {
+        document.getElementById('confirmRef').textContent = 'Payment received — ref ' + response.razorpay_payment_id;
+        document.getElementById('confirmDetail').textContent = ev.name + ' · ' + tierLabel + ' × ' + qty + '. Your e-ticket will be emailed to ' + email + '.';
+        document.getElementById('confirmBox').classList.add('show');
+      },
+      modal: {
+        ondismiss: function () { /* checkout closed without paying — no action needed */ }
+      }
+    };
+
+    const rzp = new Razorpay(options);
+    rzp.on('payment.failed', function (response) {
+      alert('Payment failed: ' + response.error.description + '. Please try again or reach us on WhatsApp.');
+    });
+    rzp.open();
+  });
+</script>
+
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1200 50" preserveAspectRatio="none">
+    <path d="M0 30 C 150 5, 300 45, 450 22 S 750 5, 900 28 S 1100 10, 1200 24 V50 H0 Z" fill="#101b24"/>
+  </svg>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a href="index.html" class="brand" style="margin-bottom:14px;">
+          <img src="assets/pulse-logo.png" alt="Pulse Society Goa" class="brand-logo" style="height:44px;">
+          <span class="brand-sub">GOA</span>
+        </a>
+        <p style="color:var(--slate);font-size:0.9rem;max-width:280px;margin:0;">Event design &amp; production for Goa, Bangalore and Mumbai.</p>
+        <p class="footer-tagline">Built with a little sussegado, run with zero delay.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Work</h5>
+          <a href="index.html#work">Parties</a><a href="index.html#work">Corporate</a><a href="index.html#work">Weddings</a><a href="index.html#work">MICE</a>
+        </div>
+        <div class="footer-col">
+          <h5>Studio</h5>
+          <a href="index.html#gallery">Gallery</a><a href="index.html#cities">Cities</a><a href="tickets.html">Tickets</a><a href="index.html#enquire">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h5>Follow</h5>
+          <a href="https://www.instagram.com/pulsesociety111/" target="_blank" rel="noopener">Instagram ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Pulse Society Goa. All rights reserved.</span>
+      <span>Goa · Bangalore · Mumbai</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
